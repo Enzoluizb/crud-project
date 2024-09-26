@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Registro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="form-container">
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Senha">
+            <button onclick="login()">Entrar</button>
+            <p>Não tem uma conta? <span onclick="toggleForms()">Registre-se</span></p>
+        </div>
+        <div id="register-form" style="display: none;">
+            <h2>Registro</h2>
+            <input type="text" id="register-name" placeholder="Nome">
+            <input type="email" id="register-email" placeholder="Email">
+            <input type="password" id="register-password" placeholder="Senha">
+            <button onclick="register()">Registrar</button>
+            <p>Já tem uma conta? <span onclick="toggleForms()">Entrar</span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
