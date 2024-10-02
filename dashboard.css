@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     color: #444;
-    margin-top: 30px; /* Espaço acima dos títulos */
+    margin-top: 30px; 
 }
 
 .dashboard-container {
@@ -65,7 +65,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 5px; /* Espaço entre os botões */
+    margin-right: 5px; 
 }
 
 button[type="submit"] {
@@ -77,7 +77,7 @@ button[type="submit"]:hover {
 }
 
 .edit-button {
-    background-color: #5bc0de; /* Cor do botão de editar */
+    background-color: #5bc0de; 
 }
 
 .edit-button:hover {
@@ -85,7 +85,7 @@ button[type="submit"]:hover {
 }
 
 .delete-button {
-    background-color: #d9534f; /* Cor do botão de excluir */
+    background-color: #d9534f; 
 }
 
 .delete-button:hover {
@@ -95,13 +95,13 @@ button[type="submit"]:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 20px; /* Espaço acima da lista de clientes */
+    margin-top: 20px; 
 }
 
 li {
     background: #e1e4e8;
     padding: 12px;
-    margin-bottom: 15px; /* Espaço entre os itens da lista */
+    margin-bottom: 15px; 
     border-radius: 8px;
     display: flex;
     justify-content: space-between;

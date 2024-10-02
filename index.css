@@ -1,79 +1,77 @@
-/* index.css */
-
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f5f5f7; /* Cor de fundo suave */
+    background-color: #f5f5f7;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Preenche a altura da tela */
+    height: 100vh;
 }
 
 .form-container {
-    background-color: #ffffff; /* Fundo branco para o formulário */
-    border-radius: 20px; /* Bordas arredondadas */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 40px;
-    width: 400px; /* Largura do formulário */
-    text-align: center; /* Centraliza o texto */
+    width: 400px;
+    text-align: center;
 }
 
 h2 {
-    font-size: 24px; /* Tamanho do título */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    color: #333; /* Cor do texto */
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 input[type="email"],
 input[type="password"],
 input[type="text"] {
-    width: 100%; /* Largura total do input */
-    padding: 12px 15px; /* Espaçamento interno */
-    margin: 10px 0; /* Margem entre os inputs */
-    border: 1px solid #e0e0e0; /* Borda cinza clara */
-    border-radius: 10px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
-    transition: border-color 0.3s; /* Transição suave para a cor da borda */
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
 }
 
 input:focus {
-    border-color: #007aff; /* Cor da borda ao focar */
-    outline: none; /* Remove o contorno padrão */
+    border-color: #007aff;
+    outline: none;
 }
 
 button {
-    width: 100%; /* Largura total do botão */
-    padding: 12px; /* Espaçamento interno do botão */
-    background-color: #007aff; /* Cor do fundo do botão */
-    color: #ffffff; /* Cor do texto do botão */
-    border: none; /* Remove a borda padrão */
-    border-radius: 10px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte do botão */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    transition: background-color 0.3s; /* Transição suave para a cor do fundo */
+    width: 100%;
+    padding: 12px;
+    background-color: #007aff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0051a1; /* Cor do fundo ao passar o mouse */
+    background-color: #0051a1;
 }
 
 p {
-    margin-top: 15px; /* Margem acima do parágrafo */
-    color: #555; /* Cor do texto do parágrafo */
+    margin-top: 15px;
+    color: #555;
 }
 
 span {
-    color: #007aff; /* Cor do texto clicável */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    text-decoration: underline; /* Sublinhado para links */
+    color: #007aff;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 span:hover {
-    color: #0051a1; /* Cor ao passar o mouse sobre o link */
+    color: #0051a1;
 }
